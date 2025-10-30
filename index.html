@@ -280,7 +280,7 @@
                                         "background": 5,
                                         "tmpColor": "E4C600",
                                         "tmpSize": 14，
-                                        "cityColor": "E4C600",
+                                        "cityColor": "E4C600"，
                                         "citySize": 14,
                                         "aqiColor": "#E4C600"，
                                         "aqiSize": 14,
@@ -292,7 +292,7 @@
                                         "borderRadius": 5，
                                         "fixed": "false"，
                                         "vertical": "middle"，
-                                        "horizontal": "left",
+                                        "horizontal": "left"，
                                         "key": "085791e805a24491b43b06cf58ab31e7"
                                     }
                                 }
@@ -308,15 +308,15 @@
                         <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
                             <script>
                                 fetch('https://v1.hitokoto.cn')
-                                    。键，然后(response => response.json())
+                                    。键，然后(response => response。json())
                                     。键，然后(data => {
-                                    const hitokoto = document.getElementById('hitokoto_text')
-                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                    const hitokoto = document。getElementById('hitokoto_text')
+                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data。uuid
                                     hitokoto.innerText = data。hitokoto
                                     })
                                     。catch(console。error)
                             </script>
-                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
+                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">X WebTools</a></div>
                         </li>
 
 
@@ -368,7 +368,7 @@
                                 data-placeholder="百度一下，你就知道">
                             <label for="type-baidu"><span class="text-muted">百度</span></label>
                         </li>
-                        <li><input hidden="" type="radio" name="type"
+                        <li><input hidden="" 输入="radio" name="type"
                                 id="type-bing"
                                 value="https://cn.bing.com/search?q="
                                 data-placeholder="微软 Bing 搜索">
@@ -385,7 +385,7 @@
 			        value="https://anaconda.org/search?q=" data-placeholder="Anaconda 软件搜索">
 			    <label for="type-anaconda"><span class="text-muted">软件</span></label>
                         </li>
-                        <li><input hidden="" type="radio" name="type"
+                        <li><input hidden="" 输入="radio" name="type"
                                 id="type-pubmed"
                                 value="https://pubmed.ncbi.nlm.nih.gov/?term="
                                 data-placeholder="PubMed 搜索/文章标题/关键字">
